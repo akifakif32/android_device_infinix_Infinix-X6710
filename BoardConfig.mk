@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/infinix/Infinix-X6710
+DEVICE_PATH := device/infinix/X6710
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
