@@ -126,7 +126,7 @@ TW_INCLUDE_LPTOOLS := true
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 
-TWRP-Specific configuration 
+# TWRP-Specific configuration 
  TW_THEME := portrait_hdpi 
  TW_DEVICE_VERSION := İnfinix Note 30 VİP
  RECOVERY_SDCARD_ON_DATA := true 
