@@ -127,7 +127,7 @@ TARGET_USES_LOGD := true
 
 # TWRP-Specific configuration 
  TW_THEME := portrait_hdpi 
- TW_DEVICE_VERSION := İnfinix Note 30 VİP
+ TW_DEVICE_VERSION := Infinix Note 30 VIP
  RECOVERY_SDCARD_ON_DATA := true 
  TARGET_USES_MKE2FS := true 
  TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness" 
