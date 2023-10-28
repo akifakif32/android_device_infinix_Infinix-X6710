@@ -20,6 +20,7 @@ AB_OTA_PARTITIONS += \
     boot \
     vbmeta_vendor \
     vbmeta_system
+BOARD_USES_RECOVERY_AS_BOOT := true
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
@@ -93,7 +94,6 @@ TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
 
 # Recovery
 TARGET_NO_RECOVERY := true
-BOARD_USES_GENERIC_KERNEL_IMAGE := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_RECOVERY_PIXEL_FORMAT := BGRA_8888
 BOARD_SUPPRESS_SECURE_ERASE := true
