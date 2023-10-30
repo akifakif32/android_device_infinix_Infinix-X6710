@@ -32,7 +32,7 @@ PRODUCT_PACKAGES += \
      android.hardware.boot@1.2-mtkimpl
 
 PRODUCT_PACKAGES += \
-    bootctrl.mt6893\
+    bootctrl.mt6893 \
     bootctrl.recovery \
     libmtk_bsg \
     libgptutils \
