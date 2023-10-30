@@ -33,8 +33,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     bootctrl.mt6893 \
-    bootctrl.recovery \
-    libmtk_bsg \
     libgptutils \
     libz \
     libcutils
