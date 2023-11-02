@@ -7,16 +7,8 @@
 
 LOCAL_PATH := device/infinix/X6710
 
-# Dynamic Partitions
-PRODUCT_USE_DYNAMIC_PARTITIONS := true
-
-# Api level
-PRODUCT_SHIPPING_API_LEVEL := 32
 # Platform
 PRODUCT_PLATFORM := mt6893
-
-# A/B
-ENABLE_VIRTUAL_AB := true
 
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
